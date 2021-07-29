@@ -1,5 +1,5 @@
 AWS.config.region = 'us-east-1';
-AWS.config.credentials = new AWS.Credentials('AKIA4OTL6G6NKGDJQKAC', 'EkcgjHLxS9oVAC2J+VFMgKp2Z6oVSWdGOqZt8y8p');
+AWS.config.credentials = new AWS.Credentials('XXXXX', 'XXXXXX');
 
 var dynamodb = new AWS.DynamoDB();
 var datumVal = new Date() - 86400000;
