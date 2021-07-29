@@ -7,7 +7,7 @@ from datetime import date, datetime #To get date and time
 import Adafruit_DHT #Import DHT Library for sensor
 
 myMQTTClient = AWSIoTMQTTClient("new_Client")
-myMQTTClient.configureEndpoint("a3jfoxtam7xsv1-ats.iot.us-east-1.amazonaws.com", 8883)
+myMQTTClient.configureEndpoint("XXXXXXXXXXXXXXXXXXXXXX", 8883)
 myMQTTClient.configureCredentials("/home/pi/cert2/CA.pem", "/home/pi/cert2/private.pem.key", "/home/pi/cert2/certificate.pem.crt")
 myMQTTClient.configureOfflinePublishQueueing(-1)  # Infinite offline Publish queueing
 myMQTTClient.configureDrainingFrequency(2)  # Draining: 2 Hz
