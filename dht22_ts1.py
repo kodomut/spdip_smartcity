@@ -2,7 +2,7 @@ import requests
 import time
 import Adafruit_DHT
 
-KEY = 'BJL1FLZKQL1CQU49'
+KEY = 'XXXXX'
 
 def pushData(temp:float, humidity:float):
     '''Takes temperature and humidity readings and pushes data to ThingSpeak server'''
