@@ -1,3 +1,6 @@
+#py script to send DHT22 sensor reading to Thingspeak
+#DHT22 is connected to Pi3 GPIO Pin 4
+
 import requests
 import time
 import Adafruit_DHT
